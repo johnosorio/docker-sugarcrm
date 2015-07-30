@@ -2,7 +2,7 @@ FROM php:5.6-apache
 
 ENV MAJOR_VERSION 6.5
 ENV MINOR_VERSION 20
-ENV SOURCEFORGE_MIRROR http://softlayer-dal.dl.sourceforge.net
+ENV SOURCEFORGE_MIRROR http://downloads.sourceforge.net
 ENV WWW_FOLDER /var/www/html
 
 RUN apt-get update && apt-get upgrade -y && \
